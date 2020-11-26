@@ -16,4 +16,6 @@ func main() {
 			soldierController.Promote(c)
 		})
 	}
+	port := "8080"
+	server.Run(":" + port)
 }
